@@ -1,5 +1,6 @@
-const { Client, GatewayIntentBits } = require('discord.js');
-const axios = require('axios');
+import 'dotenv/config';
+import { Client, GatewayIntentBits } from 'discord.js';
+import axios from 'axios';
 
 const client = new Client({
   intents: [
