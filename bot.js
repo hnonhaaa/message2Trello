@@ -17,4 +17,6 @@ client.on('messageCreate', async (message) => {
     channel: message.channel.name,
   });
 });
-client.login("MTM5MDE3NDgwMzIyMjA3MzQzNw.GXtxar.awapgaD_SOCs__xtjOJsfhNYvDhD1v0S5pEEV4");
+console.log('DISCORD_TOKEN:', process.env.DISCORD_TOKEN);
+
+client.login(process.env.DISCORD_TOKEN);
