@@ -17,5 +17,6 @@ client.on('messageCreate', async (message) => {
     channel: message.channel.name,
   });
 });
+console.log('DISCORD_TOKEN:', process.env.DISCORD_TOKEN);
 
 client.login(process.env.DISCORD_TOKEN);
