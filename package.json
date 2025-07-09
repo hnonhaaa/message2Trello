@@ -1,10 +1,10 @@
 {
   "name": "message2trello",
   "version": "1.0.0",
-  "main": "bot.js",
-  "type": "commonjs",
+  "main": "bot.mjs",
+  "type": "module",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.mjs"
   },
   "dependencies": {
     "axios": "^1.6.8",
